@@ -1,0 +1,48 @@
+module.exports = {
+    COMMON_MODULES:[
+        './www/js/VehicleCtrl.js',
+        './www/js/VehicleListCtrl.js',
+        './www/js/VehicleService.js',
+        './www/js/app.js',
+        './www/js/AppCtrl.js'
+    ],
+    BOWER_SCRIPTS: [
+        "./bower_components/angular/angular.min.js",
+        "./bower_components/angular-mocks/angular-mocks.js",
+        "./bower_components/angular-cookies/angular-cookies.min.js",
+        "./bower_components/angular-resource/angular-resource.min.js",
+        "./bower_components/angular-ui-router/release/angular-ui-router.min.js",
+        "./bower_components/angular-ui-router-styles/ui-router-styles.js",
+        "./bower_components/angular-ui-select/dist/select.min.js",
+        "./bower_components/angular-sanitize/angular-sanitize.min.js",
+        "./bower_components/angular-touch/angular-touch.min.js",
+        "./bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js",
+        "./bower_components/angular-querystring/angular-querystring.min.js",
+        "./bower_components/angular-snap/angular-snap.min.js",
+        "./bower_components/angular-ui-select/dist/select.js",
+        "./bower_components/angular-ui-utils/ui-utils.min.js",
+        "./bower_components/jquery/dist/jquery.min.js",
+        "./bower_components/angular-busy/dist/angular-busy.js",
+        "./bower_components/angular-spinner/angular-spinner.js",
+        "./bower_components/angular-loading-bar/build/loading-bar.min.js",
+        "./bower_components/angular-daterangepicker/js/angular-daterangepicker.min.js",
+        "./bower_components/angular-swipe/dist/angular-swipe.min.js",
+        "./bower_components/angular-clipboard/angular-clipboard.js",
+        "./bower_components/ionic/release/js/ionic.bundle.min.js",
+        "./bower_components/moment/min/moment.min.js"
+    ],
+    BOWER_CSS: [
+        "./bower_components/bootstrap/dist/css/bootstrap.min.css",
+        "./bower_components/bootstrap-table/dist/bootstrap-table.min.css",
+        "./bower_components/angular-snap/angular-snap-only.min.css",
+        "./bower_components/ng-img-crop/compile/unminified/ng-img-crop.css",
+        "./bower_components/angular-loading-bar/build/loading-bar.min.css",
+        "./bower_components/angular-busy/dist/angular-busy.css",
+        "./bower_components/angular-ui-select/dist/select.css",
+        "./bower_components/bootstrap-daterangepicker/daterangepicker-bs2.css",
+        "./bower_components/ng-tags-input/ng-tags-input.bootstrap.min.css",
+        "./bower_components/ng-tags-input/ng-tags-input.min.css",
+        "./bower_components/swiper/dist/css/swiper.min.css",
+        "./bower_components/ionic/release/css/ionic.min.css"
+    ]
+};

@@ -1,0 +1,43 @@
+<ion-view class="pageVehicle">
+    <ion-header-bar align-title="center" class="bar-positive">
+        <h1 class="title">Eco fuel app</h1>
+    </ion-header-bar>
+    <ion-content>
+        <div class="row custom-container">
+            <div class="col col-100">
+                <h4 class="header">{{vehicle.label}}</h4>
+
+            </div>
+        </div>
+        <div class="row custom-container">
+            <div class="col col-50">
+                <h4>Fuel economy</h4>
+                <p>Average: {{vehicle.data.avg}}{{vehicle.data.units}} /L</p>
+                <p>Max: {{vehicle.data.max}}{{vehicle.data.units}} /L</p>
+                <p>Min: {{vehicle.data.min}}{{vehicle.data.units}} /L</p>
+
+                <h4>Range: {{vehicle.data.range}}{{vehicle.data.units}}</h4>
+
+            </div>
+            <div class="col col-50">
+                <h4 class="vehicle-model-type">{{vehicle.vehicleType.make.label}} {{vehicle.vehicleType.model.parent.label}}</h4>
+            </div>
+
+        </div>
+        <div class="row custom-container">
+            <div class="col col-100">
+                <span class="since">Since: {{vehicle.since}}</span>
+            </div>
+        </div>
+        <div class="row custom-container">
+            <span>Fuel history</span>
+        </div>
+        <div class="row custom-container">
+            <div class="col col-100 fuel-history-box">
+                <span> {{vehicle.data.lastupdate.fuel.type.label}} </span>
+            </div>
+        </div>
+
+    </ion-content>
+
+</ion-view>

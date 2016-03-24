@@ -1,0 +1,12 @@
+.pageVehicle .vehicle-model-type{
+    text-align: right;
+}
+.pageVehicle .custom-container{
+    margin-left:0;
+}
+.pageVehicle .since{
+    float:right
+}
+.pageVehicle .fuel-history-box{
+    border:solid 1px lightgrey
+}
